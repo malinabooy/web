@@ -1,0 +1,16 @@
+body {
+    width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 0 20px 20px 20px;
+    border: 2px solid white;
+}
+
+html {
+    background-color: rgb(179, 244, 244);
+}
+
+h2 {
+    color: darkred;
+    font-family: 'Grandstander', cursive;
+}
