@@ -6,6 +6,11 @@ body {
     border: 2px solid white;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 html {
     background-color: rgb(179, 244, 244);
 }
@@ -13,4 +18,42 @@ html {
 h2 {
     color: darkred;
     font-family: 'Grandstander', cursive;
+}
+
+img {
+    width: 600px;
+}
+
+li {
+    font-size: 20px;
+    color: blue;
+}
+
+.bigtext {
+    font-family: 'Teddy Bear', sans-serif;
+    font-size: 26px;
+}
+
+@font-face {
+    font-family: 'Teddy Bear';
+    src: url('fonts/teddy_bear.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/teddy_bear.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/teddy_bear.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/teddy_bear.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/teddy_bear.svg#teddy_bear') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+ul {
+    list-style-type: square;
+}
+
+a:hover {
+    color: brown;
 }
